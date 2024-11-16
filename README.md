@@ -21,23 +21,32 @@ Display the availability status (number of copies available) in the search resul
 
 
 Innovative Feature: Soft Deletion for Borrower Records
-In the Library Management System, instead of permanently deleting (hard deletion) borrower records from the system, a soft deletion approach has been implemented. This means:
 
+In the Library Management System, instead of permanently deleting (hard deletion) borrower records from the system, a soft deletion approach has been implemented. This means:
 Borrower accounts are marked as inactive rather than being erased from the database.
 This ensures historical records are preserved for future reference or audits.
 The system can later support reactivating borrowers if needed, offering flexibility and data integrity.
 
 
 technology Stack
+
 Programming Language: Java
+
 Concepts: Object-Oriented Programming (OOP)
+
 Data Storage: Collections  HashMap
 
 Future Enhancements
+
 1)Integration with a database (e.g., MySQL) for permanent data storage to replace in-memory HashMap collections, enabling scalability and persistence.
+
 2)Implementing automated notifications via SMS and email:
+
 3)Sending membership IDs via email after successful borrower registration.
+
 4)Notifying borrowers about due dates and overdue fees through SMS and email.
+
 5)Sending acknowledgment emails and fee receipts after returning books.
+
 6)Converting this standalone Java project into a Spring Boot application to leverage modern Java frameworks for better integration with additional services.
 
