@@ -20,6 +20,8 @@ Display the availability status (number of copies available) in the search resul
 
 
 
+
+
 Innovative Feature: Soft Deletion for Borrower Records
 
 In the Library Management System, instead of permanently deleting (hard deletion) borrower records from the system, a soft deletion approach has been implemented. This means:
@@ -35,6 +37,9 @@ Programming Language: Java
 Concepts: Object-Oriented Programming (OOP)
 
 Data Storage: Collections  HashMap
+
+
+
 
 Future Enhancements
 
